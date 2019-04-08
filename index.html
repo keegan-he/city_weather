@@ -3,35 +3,79 @@
 
 <head>
 
-    <title>City Weather</title>
-    <script></script>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+
     <style>
         body {
-            background-color: rgb(175, 175, 175);
+            background-color: #f6f7fa;
         }
 
-        .wrapper {
+        .Container {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 12px 12px 12px;
-            background-color: blue;
+            padding: 10%;
+            grid-template-columns: 1fr;
+            grid-template-rows: 40px 900px;
+        }
+
+        .Nav {
+            background-color: #a2a8d3;
+            padding-top: 15px;
+            padding-left: 10px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .Box {
+            background-color: #38598b;
+        }
+
+        .Footer {
+            background-color: #113f67;
+            height: 5px;
+        }
+
+        .BottomFoot {
+            background-color: #34314f;
+            height: 50px;
+        }
+
+        .graphbox {
+            display:grid;
+            padding-top: 820px;
+            padding-left: 2%;
+            padding-right: 2%;
+            align-self: end;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 80px 24px 12px;
+            grid-row-gap: 1px;
+            grid-column-gap: 9px;
+            ;
         }
 
         .BarChart-bar {
-            display: flex;
-            background-color: bisque;
+            display:grid;
+            align-self: end;
+            /*border-style: dashed;*/
+            background-color: #c5fad9;
         }
     </style>
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="BarChart-bar">
-            <div class="BarChart-bar" style="height: 88.5%">EUR </div>
-            <div class="BarChart-bar" style="height: 75.5%">USD $</div>
-            <div class="BarChart-bar" style="height: 55.9%">AUD $</div>
+
+    <div class="Container">
+        <div class="Nav">US City Weather</div>
+        <div class="Box">
+            <div class="graphbox">
+                <div class="BarChart-bar" style="height: 88.5%">SEA </div>
+                <div class="BarChart-bar" style="height: 75.5%">SF </div>
+                <div class="BarChart-bar" style="height: 55.9%">NY </div>
+                <div class="BarChart-bar" style="height: 80.5%">SF </div>
+                <div class="BarChart-bar" style="height: 100.9%">DNV </div>
+            </div>
+
         </div>
+        <div class="Footer"></div>
+        <div class="BottomFoot"></div>
     </div>
 </body>
 
