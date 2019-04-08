@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Document</title>
+    <title>City Weather</title>
 
     <style>
         body {
@@ -51,7 +51,7 @@
             grid-template-rows: 80px 24px 12px;
             grid-row-gap: 1px;
             grid-column-gap: 30px;
-            
+
         }
 
         .BarChart-bar {
@@ -68,18 +68,21 @@
         }
 
         .BarChart-bar:hover {
+            font-size: 20px;
+            font-style: oblique;
             background-color: #32dd73;
-            transition: background-color .8s,
-                        padding-left 3s;
+            transition: font-style .1s,
+                font-size .2s,
+                background-color .8s,
+                padding-left 3s;
         }
-
     </style>
 </head>
 
 <body>
 
     <div class="Container">
-        <div class="Nav">US City Weather</div>
+        <div class="Nav">US City Tempatures</div>
         <div class="Box">
             <div class="graphbox">
                 <div class="BarChart-bar" style="height: 88.5%">SEA </div>
@@ -88,7 +91,6 @@
                 <div class="BarChart-bar" style="height: 80.5%">STL </div>
                 <div class="BarChart-bar" style="height: 100.9%">DNV </div>
             </div>
-
         </div>
         <div class="Footer"></div>
         <div class="BottomFoot"></div>
