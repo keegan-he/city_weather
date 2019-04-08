@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <title>City Weather</title>
     <script></script>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
-        
+        body {
+            background-color: rgb(175, 175, 175);
+        }
+
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 3fr;
+        }
+
+        .BarChart-bar {
+            display: flex;
+            background-color: bisque;
+        }
     </style>
 </head>
+
 <body>
-    
+    <div class="wrapper">
+        <div class="BarChart-bar">
+            <div class="BarChart-bar" style="height: 88.5%">EUR </div>
+            <div class="BarChart-bar" style="height: 75.5%">USD $</div>
+            <div class="BarChart-bar" style="height: 55.9%">AUD $</div>
+        </div>
+    </div>
 </body>
+
 </html>
