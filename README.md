@@ -20,7 +20,7 @@ Special shoutout to James Hazael for the cool gif.
 https://dribbble.com/JamesHazael
 
 first version of app:
-
+![1mvp](first.png)
 
 original mockup:
-![GitHub Logo](city_weather_wireframe.png)
+![1stwireframe](city_weather_wireframe.png)
