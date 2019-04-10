@@ -4,6 +4,8 @@
 *Pull weather data from openweathermap.org*
 API info here: https://openweathermap.org/current#name
 
+Demo: https://keegan-he.github.io/city_weather/index.html
+
 Parameters:
 id City ID
 Examples of API calls:
