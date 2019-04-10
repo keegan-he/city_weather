@@ -1,5 +1,5 @@
 # city_weather
-## App that displays the current weather in major cities across the U.S. 
+## Display current weather in 5 major cities across the U.S. 
 
 *Pull weather data from openweathermap.org*
 API info here: https://openweathermap.org/current#name
@@ -16,5 +16,5 @@ api.openweathermap.org/data/2.5/weather?id=2172797
 * St. Louis: 6157004
 * Denver: 5419384
 
-wireframe mockup:
+mockup:
 ![GitHub Logo](city_weather_wireframe.png)
