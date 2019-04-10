@@ -1,6 +1,6 @@
 # city_weather
 ## Display current weather in 5 major cities across the U.S. 
-
+(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 *Pull weather data from openweathermap.org*
 API info here: https://openweathermap.org/current#name
 
