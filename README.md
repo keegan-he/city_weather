@@ -16,5 +16,8 @@ api.openweathermap.org/data/2.5/weather?id=2172797
 * St. Louis: 6157004
 * Denver: 5419384
 
+Special shoutout to James Hazael for the cool gif.
+https://dribbble.com/JamesHazael
+
 mockup:
 ![GitHub Logo](city_weather_wireframe.png)
