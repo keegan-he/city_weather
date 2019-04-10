@@ -19,5 +19,8 @@ api.openweathermap.org/data/2.5/weather?id=2172797
 Special shoutout to James Hazael for the cool gif.
 https://dribbble.com/JamesHazael
 
-mockup:
+first version of app:
+
+
+original mockup:
 ![GitHub Logo](city_weather_wireframe.png)
