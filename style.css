@@ -1,6 +1,7 @@
 :root {
     --bgcolor: #cdcdcd;
-    --footerbg: #7dbbb8;
+    --footerbg: #113f67;
+    --b_footerbg: #7dbbb8;
 }
 
 .Container {
@@ -27,12 +28,12 @@
 }
 
 .Footer {
-    background-color: #113f67;
+    background-color: var(--footerbg);
     height: 5px;
 }
 
 .BottomFoot {
-    background-color: var(--footerbg);
+    background-color: var(--b_footerbg);
     height: 50px;
 }
 
