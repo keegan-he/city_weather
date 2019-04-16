@@ -1,4 +1,4 @@
-# city_weather
+# city_weather - OUT OF DATE - PLEASE REFERENCE V2
 ## Current tempature in 5 major cities across the U.S. 
 (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 *Pull weather data from openweathermap.org*
